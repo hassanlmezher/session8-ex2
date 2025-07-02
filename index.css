@@ -127,3 +127,29 @@ body{
     color: var(--blue);
     font-weight: 600;
 }
+
+.lastdiv{
+    height: 110px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 52px;
+    gap: 5px;
+}
+
+.last1{    
+    gap: 20px;
+    height: 50%;
+    display: flex;
+}
+.last2{
+    gap: 20px;
+    height: 50%;
+    display: flex;
+}
+
+.lastp{
+    color: var(--grey);
+    font-size: 12px;
+}
