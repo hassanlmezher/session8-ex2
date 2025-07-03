@@ -184,3 +184,11 @@ body{
         width: 100%;
     }
 }
+
+@media(max-width:790px){
+    .lastp{
+        
+        visibility: hidden;
+    }
+
+}
