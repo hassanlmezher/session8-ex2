@@ -11,7 +11,7 @@
     --black: #000000;
     --grey:#A8A8A8;
     --white:#FFFFFF;
-
+    --pink:pink
 }
 
 .mainsec{
@@ -34,7 +34,48 @@
     margin-left: 100px;
 }
 
+.lastp:hover{
+    font-size: 15px;
+    color: var(--pink);
+    transform: matrix(1.05);
+    transition: all 0.3s ease;
+}
 
+.email:hover{
+    border-radius: 30px;
+    box-shadow: var(--blue) 1px 1px 5px;
+    transform: matrix(1.05);
+    transition: all 0.3s ease;
+}
+
+.password:hover{
+    border-radius: 30px;
+    box-shadow: var(--blue) 1px 1px 5px;
+    transform: matrix(1.05);
+    transition: all 0.3s ease;
+}
+
+.button1:hover{
+    background-color: var(--pink);
+    color: var(--black);
+    transform: matrix(1.05);
+    transition: all 0.3s ease;
+}
+
+.iner2:hover{
+    transform: matrix(1.05);
+    transition: all 0.3s ease;
+    border: 1px solid var(--grey);
+    width: 230px;
+    height: 40px;
+    border-radius: 30px;
+}
+
+.p5:hover{
+    transform: matrix(1.05);
+    transition: all 0.3s ease;
+    color: var(--pink);
+}
 
 .picture1{
     width: 200px;
@@ -183,11 +224,12 @@ body{
         margin-left: -400px;
         width: 100%;
     }
+    
 }
 
 @media(max-width:790px){
     .lastp{
-        
+
         visibility: hidden;
     }
 
