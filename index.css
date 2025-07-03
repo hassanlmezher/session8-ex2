@@ -18,16 +18,20 @@
 
     height: 500px;
     display: flex;
+    
+    
 
 }
 
 .div2{
-    width: 500px;
+    
+    width: fit-content;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     gap: 10px;
+    margin-left: 100px;
 }
 
 
@@ -59,8 +63,8 @@
 
 .div1{
     height: 100%;
-    width: 40%;
-    margin-left: 200px;
+    width: 600px;
+    margin-left: 13%;
     margin-top: 30px;
     background-image: url(div1.png);
     background-position: center;
@@ -153,3 +157,10 @@ body{
     color: var(--grey);
     font-size: 12px;
 }
+
+@media(max-width:1174px){
+    .div2{
+        margin-right: 20px;
+    }
+}
+
