@@ -170,5 +170,17 @@ body{
         height: 100%;
         background-size: 350px;
     }
+    .lastp{
+        font-size: 10px;
+    }
 }
 
+@media(max-width:830px){
+    .div1{
+        visibility: hidden;
+    }
+    .div2{
+        margin-left: -400px;
+        width: 100%;
+    }
+}
