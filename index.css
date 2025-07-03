@@ -164,3 +164,11 @@ body{
     }
 }
 
+@media(max-width:1050px){
+    .div1{
+        width: 400px;
+        height: 100%;
+        background-size: 350px;
+    }
+}
+
